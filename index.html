@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-14 | Bou Leakhena</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- ~~~~~Top-bar~~~~~~~~~ -->
+       <div class="top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4 left-text d-flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <h6 class="ms-2">Need help? Call Us: <a href="#">+1(234) 567-890</a></h6>
+                    </div>
+                    <div class=" col-4 middle-text d-flex justify-content-end">
+                        <i class="fa-solid fa-truck fa-flip-horizontal fs-6 "></i>
+                        <h6 class="ms-2">Free Shipping on ordes over 50$</h6>
+                    </div>
+                    <div class="col-4 right-dropdown d-flex me-auto justify-content-end">
+                        <ul class="topbar-dropdown list-unstyled d-flex gap-2 ">
+                            <li class="topbar-list d-flex gap-2">
+                                <a href="#" class="topbar-link"><i class="fa-solid fa-language fs-4"></i>EN</a>
+                            </li>
+                            <li class="topbar-list d-flex gap-2">
+                                <a href="#" class="topbar-link"><i class="fa-solid fa-dollar-sign"></i></i>USD</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- ~~~~~main-bar~~~~~~~~~ -->
+       <div class="main-bar mt-3">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <h1 class="fw-3 fs-3 text-black">NiceShop</h1>
+                    </div>
+                    <div class="col-4">
+                        <form class="d-flex " role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn p-2 bg-black text-white" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <div class="mainbars-icons d-flex gap-3 justify-content-end">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <!-- ~~~~~Navbar~~~~~~~~~ -->
+       <nav class="navbar navbar-expand-lg bg-dark navbar-dark mt-3 ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-5 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Category</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Product Details</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Checkout</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                         <li class="nav-item ms-5">
+                            <a class="nav-link contact" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!-- ~~~~~Main-banner~~~~~~~~~ -->
+    <main class="pt-5">
+        <section class="banner">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card border-0">
+                                <h1 class="fw-bold mt-3">Discover Amazing Products</h1>
+                                <p class="text-secondary mt-2 ">Explore our curated collection of premium items designed to enhance your lifestyle. From fashion to tech, find everything you need with exclusive deals and fast shipping.</p>
+                                <div class="btn d-flex justify-content-start gap-3 mt-3">
+                                    <button type="submit" class="border-0 py-3 px-4 rounded bg-black text-white fw-bold">Shop Now</button>
+                                    <button type="submit border" class="border border-2 py-3 px-4 bg-transparent rounded fw-bold">Browse Categories</button>
+                                </div>
+                                <div class="icons-advertise d-flex gap-3 mt-5">
+                                    <div class="d-flex gap-2">
+                                        <i class="fa-solid fa-truck fa-flip-horizontal fs-6 "></i>
+                                        <h6 class="text-secondary">Free Shipping</h6>
+                                    </div>
+                                    <div class="d-flex gap-2">
+                                        <i class="fa-solid fa-award fs-6"></i>
+                                        <h6 class="text-secondary">Quality Garantee</h6>
+                                    </div>
+                                    <div class="d-flex gap-2">
+                                        <i class="fa-solid fa-headphones fs-6"></i>
+                                        <h6 class="text-secondary">24/7 Support</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card border-0 ms-5 mt-sm-5 ">
+                                <div class="circle-icons rounded-circle">
+                                    <span><i class="fa-solid fa-cart-shopping fs-5 pt-3 ps-3"></i></span>
+                                </div>
+                                <div class="circle-icons1 rounded-circle">
+                                    <span><i class="fa-solid fa-magnifying-glass fs-5 pt-3 ps-3"></i></span>
+                                </div>
+                                <div class="circle-icons2 rounded-circle">
+                                    <span><i class="fa-regular fa-heart fs-5 pt-3 ps-3"></i></span>
+                                </div>
+                            <div class="card-img ms-5 p-3">
+                                    <button type="submit" class="btn-bestseller rounded-pill py-1 px-2 bg-black border-0 text-white fw-bold">Best Seller</button>
+                                    <img src="assets/img/product-2.webp" alt="" width="250px" class=" ms-4 mt-0">
+                                    <h3 class="fs-6">Premium Wireless Headphones</h3>
+                                    <h6 class="fs-3 fw-bold text-black mt-3">$299 <span class="fs-5 fw-normal text-secondary ms-3 mt-3">$399</span></h6>
+                            </div>
+                            <div class="card-img1 px-3 py-2">
+                                    <img src="assets/img/product-3.webp" alt="" width="60px">
+                                    <span class="ms-3 fw-bold">89$</span>
+                            </div>
+                                <div class="card-img2 px-3 py-2">
+                                    <img src="assets/img/product-5.webp" alt="" width="60px">
+                                    <span class="ms-3 fw-bold">149$</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+         <!-- ~~~~~section-product~~~~~~~~~ -->
+        <section class="product mt-5">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12 bg-purple mb-sm-4">
+                        <div class="row">
+                            <div class="col-6 p-0">
+                                <div class="card-6 p-4">
+                                    <div class="hero-content">
+                                        <button type="button" class="btn btn-light rounded-pill bg-secondary-subtle px-5 fs-6 fw-bold mb-3">TRENDING NOW</button>
+                                        <h1 class="hero-title">New<br>Summer<br>Collection</h1>
+                                        <p class="hero-description">
+                                            Discover our latest arrivals designed for the modern lifestyle. 
+                                            Elegant, comfortable, and sustainable fashion for every occasion.
+                                        </p>
+                                        <a href="#" class="btn-explore">
+                                            <button class="bg-black text-white px-4 py-2 rounded-pill fs-6">Explore Collection <i class="fas fa-arrow-right"></i></button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card-6 overflow-hidden">
+                                    <img src="assets/img/product-f-4.webp" class="female-image"   alt="" width="420px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 ">
+                                <div class="card-male d-flex bg-blue p-3 mb-4 ms-2 overflow-hidden rounded-3">
+                                    <div class="category-card men">
+                                        <h5 class="category-title">Men's<br>Wear</h5>
+                                        <p class="hero-description fs-6">242 products</p>
+                                        <a href="#" class="shop-link p-0 fs-6">Shop Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="male-img">
+                                        <img src="assets/img/product-m-5.webp" alt="" width="180px" class="ms-2 male-image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card-kid d-flex bg-yellow p-3 overflow-hidden rounded-3">
+                                    <div class="category-card men">
+                                        <h5 class="category-title">Men's<br>Wear</h5>
+                                        <p class="hero-description fs-6">242 products</p>
+                                        <a href="#" class="shop-link p-0 fs-6">Shop Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="kid-img">
+                                        <img src="assets/img/product-8.webp" alt="" width="180px" class="ms-2 male-image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 ">
+                                <div class="card-kid d-flex bg-pink p-3 overflow-hidden ms-2 rounded-3">
+                                    <div class="category-card men">
+                                        <h5 class="category-title">Men's<br>Wear</h5>
+                                        <p class="hero-description fs-6">242 products</p>
+                                        <a href="#" class="shop-link p-0 fs-6">Shop Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="kid-img">
+                                        <img src="assets/img/product-3.webp" alt="" width="150px" class="ms-2 male-image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card-kid d-flex bg-green p-3 overflow-hidden rounded-3">
+                                    <div class="category-card men">
+                                        <h5 class="category-title">Men's<br>Wear</h5>
+                                        <p class="hero-description fs-6">242 products</p>
+                                        <a href="#" class="shop-link p-0 fs-6">Shop Now <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="kid-img">
+                                        <img src="assets/img/product-12.webp" alt="" width="150px" class="ms-2 male-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ~~~~~section-shopping~~~~~~~~~ -->
+        <section class="shopping">
+            <div class="container">
+                <h3 class="text-center fw-bold ">Best Seller</h3>
+                <p class="hero-description fs-6 text-center text-secondary mb-5" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus.</p>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-card  overflow-hidden p-3">
+                            <div class="product-image">
+                                <img src="assets/img/product-1.webp" alt="" width="200px" class="shopping-img">
+                            </div>
+                            <h6 class="hero-description fs-6 text-secondary mt-3">Premuim Collection</h6>
+                            <h6 class="product-name fw-light">Mauris blandit aliquet elit.</h6>
+                            <div class="reviews d-flex gap-3">
+                                <div class="stars mt-4 mb-3">
+                                    <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                    <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                    <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                    <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                    <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                </div>
+                                <div class="rating">(24)</div>
+                        
+                            </div>
+                            <div class="pricing">
+                                <span class="current-price my-2">$189.00</span>
+                            </div>
+                            <div class="colors mt-3">
+                                <div class="color-option" style="background: #3b82f6;" title="Ocean Blue"></div>
+                                <div class="color-option" style="background: #10b981;" title="Forest Green"></div>
+                                <div class="color-option" style="background: #ef4444;" title="Cherry Red"></div>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="product-card  overflow-hidden p-3 ">
+                                    <div class="product-image">
+                                        <img src="assets/img/product-4.webp" alt="" width="200px" class="shopping-img">
+                                    </div>
+                                    <h6 class="hero-description fs-6 text-secondary mt-3">Premuim Collection</h6>
+                                    <h6 class="product-name  fw-light">Sed do eiusmod tempor <br> incididunt</h6>
+                                    <div class="reviews d-flex gap-3">
+                                        <div class="stars  mt-3">
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                        </div>
+                                        <div class="rating-1">(38)</div>
+                                
+                                    </div>
+                                    <div class="pricing d-flex align-items-center gap-3">
+                                        <span class="original-price">$240.00</span>
+                                        <span class="current-price my-2">$165.00</span>
+                                    </div>
+                                    <div class="colors">
+                                        <div class="color-option" style="background: #1f2937;" title="Midnight Black"></div>
+                                        <div class="color-option" style="background: #f59e0b;" title="Sunset Orange"></div>
+                                        <div class="color-option" style="background: #8b5cf6;" title="Lavender Purple"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="product-card  overflow-hidden p-3">
+                                    <div class="product-image">
+                                        <img src="assets/img/product-7.webp" alt="" width="200px" class="shopping-img">
+                                    </div>
+                                    <h6 class="hero-description fs-6 text-secondary mt-3">Premuim Collection</h6>
+                                    <h6 class="product-name  fw-light">Lorem ipsum dolor sit <br> amet consectetur</h6>
+                                    <div class="reviews  mt-3 d-flex gap-3">
+                                        <div class="stars mb-3">
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                        </div>
+                                        <div class="rating-2">(12)</div>
+                                
+                                    </div>
+                                    <div class="pricing">
+                                        <span class="current-price my-2">$95.00</span>
+                                    </div>
+                                    <div class="colors mt-2">
+                                        <div class="color-option" style="background: #ef4444;" title="Classic Red"></div>
+                                        <div class="color-option" style="background: #06b6d4;" title="Sky Blue"></div>
+                                        <div class="color-option" style="background: #10b981;" title="Mint Green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="product-card overflow-hidden p-3">
+                                    <div class="product-image">
+                                        <img src="assets/img/product-10.webp" alt="" width="200px" class="shopping-img">
+                                    </div>
+                                    <h6 class="hero-description fs-6 text-secondary mt-3">Premuim Collection</h6>
+                                    <h6 class="product-name  fw-light">Ut enim ad <br> minim veniam quis.</h6>
+                                    <div class="reviews d-flex gap-3">
+                                        <div class="stars  mt-2 mb-3">
+                                            <span class="star"><i class="fa-solid fa-star text-warning "></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                            <span class="star empty"><i class="fa-solid fa-star text-warning"></i></span>
+                                        </div>
+                                        <span class="rating-3">(56)</span>
+                                
+                                    </div>
+                                    <div class="pricing">
+                                        <span class="current-price my-2">$165.00</span>
+                                    </div>
+                                    <div class="colors mt-2">
+                                        <div class="color-option" style="background: #6b7280;" title="Sophisticated Gray"></div>
+                                        <div class="color-option" style="background: #8b5cf6;" title="Royal Purple"></div>
+                                        <div class="color-option" style="background: #f59e0b;" title="Golden Yellow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <br><br>
+        </section>
+    </main>
+
+    <!-- ~~~~~~~Footer~~~~~ -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <span class="copyright-symbol">©</span>
+                    <span>Copyright</span>
+                    <span class="brand-name">NiceShop</span>
+                    <span>. All Rights Reserved.</span>
+                </div>
+                
+                <div class="col-6">
+                    <ul class="footer-links list-unstyled d-flex justify-content-end ">
+                        <li class="footer-list pt-2"><a href="#terms" class="footer-link text-white">Terms</a></li>
+                        <li class="footer-list pt-2"><a href="#privacy" class="footer-link text-white">Privacy</a></li>
+                        <li class="footer-list pt-2"><a href="#cookies" class="footer-link text-white">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
